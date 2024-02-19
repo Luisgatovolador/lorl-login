@@ -9,7 +9,9 @@ import { RegisterComponent } from './componentes/register/register.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from './componentes/header/header.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 import { MessageService } from 'primeng/api';
 
 @NgModule({
@@ -17,17 +19,20 @@ import { MessageService } from 'primeng/api';
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PrimengModule,
     BrowserAnimationsModule,
-    HttpClientModule,
     ReactiveFormsModule,
- 
+    HttpClientModule,
+    PrimengModule
     
+
+
   ],
   providers: [
     MessageService,

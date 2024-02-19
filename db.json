@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "d2f0",
+      "fullname": "luis Oswaldo Rodriguez LOPE",
+      "email": "luis@gmail.com",
+      "password": "9R5fmWy8pCCQvT."
+    },
+    {
+      "id": "2224",
+      "fullname": "Claudia Mutio",
+      "email": "is@gmail.com",
+      "password": "24@!5mka5DkbNBk"
+    },
+    {
+      "id": "e5e7",
+      "fullname": "Jose Mutio",
+      "email": "jose@gmail.com",
+      "password": "123"
+    }
+  ]
+}
